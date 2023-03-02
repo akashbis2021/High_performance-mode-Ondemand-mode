@@ -3,7 +3,7 @@ Description=Reboot message systemd service.
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /home/private/setperformance.sh
+ExecStart=/bin/bash /home/private/performance/highper.sh
 
 [Install]
 WantedBy=multi-user.target
