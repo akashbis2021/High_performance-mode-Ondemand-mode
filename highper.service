@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable High Performance
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/private/performance/ondemandper.sh
+
+[Install]
+WantedBy=default.target
+
