@@ -5,7 +5,7 @@ In this repository I create High-performance-mode / Ondemand mode  for every Lin
  1. make a folder in /home/username/performance
  2. copy both modes in /home/username/performance
  
-#How to setup High-performance mode && Ondemand-mode
+#How to setup High-performance mode && Ondemand-mode service
  
  CAUTION:---
  ** copy any one service from two service's (High / Ondemand), which you want to create a service
