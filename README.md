@@ -1,7 +1,10 @@
 # High_performance-mode-Ondemand-mode for LINUX
 In this repository I create High-performance-mode / Ondemand mode  for every Linux desktop and server's
 
-#How to set up 
+#Install Dependencies
+  sudo apt-get install cpufrequtils -y 
+
+#How to set up
  1. make a folder in /home/username/performance
  2. copy both modes in /home/username/performance
  3. Give permission to the mode's
@@ -34,3 +37,7 @@ In this repository I create High-performance-mode / Ondemand mode  for every Lin
   1. sudo service ondemandper start
   2. sudo systemctl enable ondemandper.service
    
+   
+ # For checking Every Core frequency 
+   1. open terminal 
+   2. run "watch cat /sys/devices/system/cpu/cpu[0-7]*/cpufreq/scaling_cur_freq"
