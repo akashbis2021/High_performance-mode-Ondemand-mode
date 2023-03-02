@@ -5,8 +5,8 @@ In this repository I create High-performance-mode / Ondemand mode  for every Lin
  1. make a folder in /home/username/performance
  2. copy both modes in /home/username/performance
  3. Give permission to the mode's
-    sudo chmod +x /home/username/performance/highper.sh
-    sudo chmod +x /home/username/performance/ondemand.sh
+      sudo chmod +x /home/username/performance/highper.sh
+      sudo chmod +x /home/username/performance/ondemand.sh
     
 #How to setup High-performance mode && Ondemand-mode service
  
